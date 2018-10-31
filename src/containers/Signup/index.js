@@ -89,6 +89,7 @@ class Signup extends React.Component {
                           />
                         </p>
                       </div>
+                      <hr />
                       <div className="field is-horizontal">
                         <div className="field-body">
                           <div className="field">
