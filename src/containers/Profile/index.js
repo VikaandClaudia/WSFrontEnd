@@ -38,6 +38,7 @@ class Profile extends React.Component {
             </div>
           </div>
           <div className="column is-8">
+            Scrap this for later
           </div>
         </div>
       </section>
