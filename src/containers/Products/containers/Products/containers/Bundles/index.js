@@ -28,7 +28,7 @@ class Bundles extends React.Component {
                 product="bundle"
                 name={bundle.name}
                 category_id={bundle.category_id}
-                photo={bundle.photo}
+                image={bundle.image}
                 ingredients={bundle.items}
                 steps={bundle.steps}
                 bundle={bundle}

@@ -31,7 +31,7 @@ class Category extends React.Component {
                 product={product.supplies ? 'item' : 'bundle'}
                 name={product.name}
                 category_id={product.category_id}
-                photo={product.photo}
+                image={product.image}
                 ingredients={product.supplies ? product.supplies : product.items}
                 steps={product.steps}
                 item={product.supplies ? product : null}
