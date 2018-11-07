@@ -141,8 +141,8 @@ class Product extends React.Component {
                           {
                             this.props.product === 'item' ? (
                               <span>
-                                <span className="supply-qty">{ingredient.qty}</span>
-                                <span className="supply-unit">{ingredient.qty_measure}</span>
+                                <span className="supply-qty">{ingredient.supply_qty}</span>
+                                <span className="supply-unit">{ingredient.measure_unit}</span>
                               </span>
                             ) : (
                               <span className="supply-qty">{ingredient.item_qty}</span>
