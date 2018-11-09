@@ -94,7 +94,7 @@ class Admin {
 
   static getTotalBundlesSoldChart = async () => {
     const shop_id = await Auth._authenticatedRequest();
-    const response = await request(`/adminProducts/bundleQTY/${shop_id}`);
+    const response = await request(`/admin_products/bundle_qty/${shop_id}`);
     return response.data.data;
   };
 };
