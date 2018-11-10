@@ -1,3 +1,7 @@
+This version has been deprecated.
+
+---
+
 <p align="center">
   <img src="./public/assets/wrightstream-logo.svg" alt="WrightStream" width="300">
   <br>

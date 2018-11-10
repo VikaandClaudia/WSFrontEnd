@@ -30,16 +30,7 @@ class Profile extends React.Component {
                       </span>
                       {this.props.user.email}
                     </li>
-                    <li>
-                      <span className="fa-icon">
-                        <i className="fas fa-birthday-cake"></i>
-                      </span>
-                      September 16, 1992
-                    </li>
                   </ul>
-                  <p className="profile-bio">
-                    Staff biography
-                  </p>
                 </aside>
                 <hr />
                 <button className="button is-primary is-outlined is-fullwidth">Edit Profile</button>
@@ -47,6 +38,7 @@ class Profile extends React.Component {
             </div>
           </div>
           <div className="column is-8">
+            Scrap this for later
           </div>
         </div>
       </section>

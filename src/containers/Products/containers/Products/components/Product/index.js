@@ -87,7 +87,7 @@ class Product extends React.Component {
         <div className="card" onClick={this.toggle}>
           <div className="card-image">
             <figure className="image is-16by9">
-              <img src={this.props.photo} alt={this.props.name} />
+              <img src={this.props.image} alt={this.props.name} />
             </figure>
           </div>
           <div className="card-content">
@@ -113,7 +113,7 @@ class Product extends React.Component {
           <div className="modal-background" onClick={this.toggle}></div>
           <div className="modal-content">
             <p className="image is-2by1">
-              <img src={this.props.photo} alt={this.props.name} />
+              <img src={this.props.image} alt={this.props.name} />
             </p>
             <div className="modal-container">
               <div>
@@ -141,8 +141,8 @@ class Product extends React.Component {
                           {
                             this.props.product === 'item' ? (
                               <span>
-                                <span className="supply-qty">{ingredient.qty}</span>
-                                <span className="supply-unit">{ingredient.qty_measure}</span>
+                                <span className="supply-qty">{ingredient.supply_qty}</span>
+                                <span className="supply-unit">{ingredient.measure_unit}</span>
                               </span>
                             ) : (
                               <span className="supply-qty">{ingredient.item_qty}</span>

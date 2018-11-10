@@ -28,7 +28,7 @@ class Items extends React.Component {
                 product="item"
                 name={item.name}
                 category_id={item.category_id}
-                photo={item.photo}
+                image={item.image}
                 ingredients={item.supplies}
                 steps={item.steps}
                 item={item}
